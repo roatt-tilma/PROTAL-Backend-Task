@@ -1,0 +1,28 @@
+{
+  "name": "PROTAL-Backend-Task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roatt-tilma/PROTAL-Backend-Task.git"
+  },
+  "keywords": [],
+  "author": "roshanbhattmnr@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roatt-tilma/PROTAL-Backend-Task/issues"
+  },
+  "homepage": "https://github.com/roatt-tilma/PROTAL-Backend-Task#readme",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.8",
+    "nodemon": "^2.0.12"
+  }
+}
