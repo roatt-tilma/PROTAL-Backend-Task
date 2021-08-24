@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+    <% 
+        if (email){
+            localStorage.setItem('email', email)
+        }
+    %>
+    <form action="/meme" method="POST">
+    <label for="code">Code</label>
+    <input type="text" name="code">
+    <br>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
